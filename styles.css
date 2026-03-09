@@ -101,6 +101,10 @@ grid-template-columns:1fr 1fr;
 gap:60px;
 align-items:center;
 }
+.blue-icon{
+  color: blue;
+  font-size: 20px;
+}
 
 /* MODAL BACKDROP */
 
@@ -1685,5 +1689,6 @@ min-height:auto;
 .certifications img{
 width:140px;
 }
+
 
 }
