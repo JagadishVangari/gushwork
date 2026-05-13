@@ -129,32 +129,140 @@ nav ul li:hover{
 }
 
 /* DEMO CONTENT */
-.hero{
-  height:120vh;
-  background:linear-gradient(to right,#f4f6ff,#ffffff);
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-size:40px;
-  font-weight:bold;
-}
-
 /* HERO SECTION */
 
 .hero{
-padding:60px 0;
-background:#f6f7fb;
+  padding:60px 0;
+  background:#f6f7fb;
 }
 
 .hero-wrapper{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:60px;
-align-items:center;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:60px;
+  align-items:center;
 }
+
+/* PRODUCT GALLERY */
+
+.product-gallery{
+  width:100%;
+}
+
+.main-image{
+  position:relative;
+  width:100%;
+  height:500px;
+  overflow:hidden;
+  border-radius:20px;
+  background:#fff;
+  box-shadow:0 4px 20px rgba(0,0,0,0.08);
+}
+
+.main-image img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+  transition:0.4s ease;
+  cursor:crosshair;
+}
+
+/* ZOOM PREVIEW */
+
+.zoom-preview{
+  position:absolute;
+  top:0;
+  left:105%;
+  width:350px;
+  height:350px;
+  border-radius:20px;
+  background-repeat:no-repeat;
+  background-color:#fff;
+  border:2px solid #ddd;
+  box-shadow:0 5px 25px rgba(0,0,0,0.15);
+  display:none;
+  z-index:10;
+}
+
+/* NAVIGATION */
+
+.nav{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  background:rgba(255,255,255,0.9);
+  border:none;
+  width:45px;
+  height:45px;
+  border-radius:50%;
+  cursor:pointer;
+  font-size:20px;
+  transition:0.3s;
+}
+
+.nav:hover{
+  background:#2d3ea8;
+  color:#fff;
+}
+
+.prev{
+  left:15px;
+}
+
+.next{
+  right:15px;
+}
+
+/* THUMBNAILS */
+
+.thumbs{
+  display:flex;
+  gap:15px;
+  margin-top:20px;
+}
+
+.thumbs img{
+  width:90px;
+  height:90px;
+  object-fit:cover;
+  border-radius:12px;
+  cursor:pointer;
+  border:3px solid transparent;
+  transition:0.3s ease;
+}
+
+.thumbs img:hover{
+  transform:scale(1.05);
+}
+
+.thumbs img.active{
+  border-color:#2d3ea8;
+}
+
+/* DETAILS */
+
+.product-details h1{
+  font-size:42px;
+  line-height:1.4;
+  margin:25px 0;
+  color:#1a1a1a;
+}
+
+.features{
+  list-style:none;
+}
+
+.features li{
+  margin-bottom:16px;
+  font-size:17px;
+  color:#444;
+}
+
 .blue-icon{
-  color: blue;
-  font-size: 20px;
+  color:#2b3990;
+  font-size:14px;
+  margin-right:8px;
 }
 
 /* MODAL BACKDROP */
