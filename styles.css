@@ -127,63 +127,7 @@ nav ul li:hover{
   color:#2d3ea8;
 }
 
-/* HERO SECTION */
-
-.hero{
-  padding:60px 0;
-  background:#f6f7fb;
-}
-
-.hero-wrapper{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:60px;
-  align-items:center;
-}
-
-/* PRODUCT GALLERY */
-
-.product-gallery{
-  width:100%;
-}
-
-.main-image{
-  position:relative;
-  width:100%;
-  height:520px;
-  overflow:hidden;
-  border-radius:20px;
-  background:#fff;
-  box-shadow:0 4px 20px rgba(0,0,0,0.08);
-}
-
-.main-image img{
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  display:block;
-  transition:0.4s ease;
-  cursor:crosshair;
-}
-
-/* ZOOM PREVIEW */
-
-.zoom-preview{
-  position:absolute;
-  top:0;
-  left:105%;
-  width:380px;
-  height:380px;
-  border-radius:20px;
-  background-repeat:no-repeat;
-  background-color:#fff;
-  border:2px solid #ddd;
-  box-shadow:0 5px 25px rgba(0,0,0,0.15);
-  display:none;
-  z-index:100;
-  transition:0.3s ease;
-}
-
+.hero{ height:120vh; background:linear-gradient(to right,#f4f6ff,#ffffff); display:flex; align-items:center; justify-content:center; font-size:40px; font-weight:bold; } /* HERO SECTION */ .hero{ padding:60px 0; background:#f6f7fb; } .hero-wrapper{ display:grid; grid-template-columns:1fr 1fr; gap:60px; align-items:center; } .blue-icon{ color: blue; font-size: 20px; }
 /* NAVIGATION */
 
 .nav{
