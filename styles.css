@@ -29,7 +29,6 @@ width:auto;
 }
 
 /* NAVBAR */
-/* TOP STICKY HEADER */
 .top-sticky-header{
   position:fixed;
   top:-100px;
@@ -128,9 +127,8 @@ nav ul li:hover{
   color:#2d3ea8;
 }
 
-/* DEMO CONTENT */
 /* HERO SECTION */
-
+.hero{ height:120vh; background:linear-gradient(to right,#f4f6ff,#ffffff); display:flex; align-items:center; justify-content:center; font-size:40px; font-weight:bold; } /* HERO SECTION */ .hero{ padding:60px 0; background:#f6f7fb; } .hero-wrapper{ display:grid; grid-template-columns:1fr 1fr; gap:60px; align-items:center; } .blue-icon{ color: blue; font-size: 20px; }
 .hero{
   padding:60px 0;
   background:#f6f7fb;
