@@ -1,3 +1,16 @@
+// STICKY HEADER SHOW/HIDE
+const topHeader = document.getElementById("topHeader");
+
+window.addEventListener("scroll", () => {
+
+  if(window.scrollY > 300){
+    topHeader.classList.add("show");
+  }else{
+    topHeader.classList.remove("show");
+  }
+
+});
+
 /* =========================
    IMAGE CAROUSEL
 ========================= */
